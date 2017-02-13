@@ -1,0 +1,27 @@
+﻿body
+{
+    background-color: #336699;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+h1
+{
+    color: #66FF66;
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2
+{
+    color: #C0C0C0;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}

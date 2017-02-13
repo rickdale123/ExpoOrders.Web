@@ -1,0 +1,16 @@
+﻿th.ColHeaderSortDesc a {
+        display:block; padding:0 4px 0 15px;
+        
+        background:url("../images/arrow-down.png") no-repeat;
+
+}
+th.ColHeaderSortAsc a 
+{
+    display:block; padding:0 4px 0 15px;
+        background:url("../images/arrow-up.png") no-repeat;
+}
+
+th
+{
+    text-align: left;
+}

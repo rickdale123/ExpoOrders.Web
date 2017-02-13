@@ -1,0 +1,40 @@
+
+table.loginArea
+{
+    	background-color: #E9E9E9;    
+	border: 2px solid #999;
+	/*opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;*/
+}
+
+
+table.loginArea td{
+
+	
+}
+
+
+
+#footerHelp{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.loginInstructions{
+	text-align: center;
+	color: #BE1E2D;
+	font-style: italic;
+}
+
+.loginShowName{
+	font-size: 22px;
+}
+
+.managerLogin
+{
+	text-align: right;
+	display: block;
+}

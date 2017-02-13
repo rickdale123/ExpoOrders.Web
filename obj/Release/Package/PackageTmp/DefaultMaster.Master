@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DefaultMaster.master.cs" Inherits="ExpoOrders.Web.DefaultMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>ExpoOrders.com</title>
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <link id="HostStyleSheet" rel="Stylesheet" type="text/css" />
+    <link id="HostLoginStyleSheet" rel="Stylesheet" type="text/css" />
+
+    <script id="LibraryJS" type="text/javascript" src="<%= Page.ResolveUrl("~/Common/Library.js")%>" language="javascript"></script>
+
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body id="LoginBody" class="pageBody" runat="server">
+    <form id="frmDefault" onsubmit="formSubmitting();" runat="server">
+    <div id="container">
+
+        <asp:PlaceHolder ID="plcShowHeader" Visible="false" runat="server">
+            <div class="headernopadding">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table width="901" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td class="headLeft">&nbsp;</td>
+                                    <td class="headRight">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </asp:PlaceHolder>
+        
+        <asp:PlaceHolder ID="plcOwnerHeader" Visible="false" runat="server">
+
+            <div id="loginHeadernopadding">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td><table id="ownerLandingHeaderTable" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td id="ownerLandingHeaderLeft"><div class="welcomeMessage"><asp:Literal ID="ownerWelcomeMessage" runat="server" /></div></td>
+                            <td id="ownerLandingHeaderRight">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                 </table>
+            </div>
+        </asp:PlaceHolder>
+
+        <div id="containerContent">
+
+            <div class="contentSpacer">&nbsp;</div>
+
+                <asp:PlaceHolder ID="plcShowInfo" Visible="false" runat="server">
+                    <center>
+                        <asp:Label ID="lblShowName" CssClass="loginShowName" runat="server" />
+                        <br />
+                        <asp:Label ID="lblShowDates" CssClass="loginShowDates" runat="server" />
+                        <br />
+                    </center>
+                </asp:PlaceHolder>
+
+                <asp:ContentPlaceHolder ID="LoginBodyContent" runat="server">
+            
+                </asp:ContentPlaceHolder>
+
+                <div class="contentSpacer">&nbsp;</div>
+            </div>
+
+            <asp:PlaceHolder ID="plcContactUs" Visible="false" runat="server">
+                <div id="footerHelp">
+                    <asp:Literal ID="ownerContactUsHtml" runat="server" />
+
+                    <a id="lnkContactUs" runat="server" visible="false">Contact Us</a>
+                </div>
+            </asp:PlaceHolder>
+
+            <asp:PlaceHolder ID="plcManagerLogin" visible="false" runat="server">
+                <div class="managerLogin"><a href="Login.aspx?mgr=true">Manager Login</a></div>
+            </asp:PlaceHolder>
+
+        </div>
+    </form>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38869638-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,855 @@
+﻿/*
+RED: #901824
+BLUE: #211C5E
+Gray: #A5A6AA
+*/
+
+body  {
+	font: 100% arial,helvetica,clean,sans-serif;
+	background: #901824;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-size: 12px;
+}
+
+.headLeft
+{
+    background: url("ShowBanner.jpg") no-repeat left top;
+    width: 425px;
+    height: 95px;
+    overflow: hidden;
+}
+
+.headRight
+{
+    background: url("ExpoOrders-Logo.jpg") no-repeat right top;
+    width: 325px;
+    height: 83px;
+    overflow: hidden;
+    padding-right: 20px;
+
+}
+
+.sectionDivider
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #C0C0C0;
+}
+
+.sectionHeader
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1
+{
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	background:#666666;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+h2 {
+    color:#900;
+    font-size:14px;
+    font-style:normal;
+    font-weight:bold;
+    line-height:normal;
+    margin:0;
+}
+
+h3
+{
+    color:#900;
+    font-size: 12px;
+    font-style:normal;
+    font-weight:bold;
+    line-height:normal;
+    margin:0;
+}
+h4 {
+    color:#000000;
+    font-size:10px;
+    font-style:normal;
+    font-weight:bold;
+    line-height:normal;
+    margin:0;
+}
+
+p
+{
+    font-size:12px;
+	color:#000000;
+}
+
+strong
+{
+    font-weight: bold;
+    color: #900;
+}
+
+A:link, A:visited, A:active {
+color: #900;
+}
+
+A:hover {
+color: #F00;
+}
+
+
+A.action-link:link, A.action-link:visited, A.action-link:active 
+{
+    font-size: 11px;
+    color: #900;
+    text-decoration: none;
+    
+}
+
+A.action-link:hover {
+    color: #F00;   
+    text-decoration: underline;
+} 
+
+
+.lateIndicator 				
+{
+    font-size:12px;
+	color: #990000;
+}
+
+.subNavigationHeader 
+{			
+    font-size:14px;
+	color: #900;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 2px;
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center;
+}
+
+.showBannerName
+{			
+    font-size: 12px;
+    font-weight: bold;
+	color: #333;
+	text-align:left;
+}
+
+.userInfo 
+{			
+    font-size: 12px;
+	color: #990000;
+	text-align:right;
+}
+
+
+.contentLabel 
+{			
+    font-size:11px;
+	font-weight:bold;
+	color: #333;
+	vertical-align:text-top;
+}
+
+.contentLabelRight
+{			
+    font-size:11px;
+	font-weight:bold;
+	text-align:right;
+	color: #333;
+	white-space:nowrap;
+	vertical-align:text-top;
+}
+
+.headerNavLinks 				
+{
+    font-size:13px;
+}
+
+
+TR.item, Table.item
+{
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+}
+
+TR.altItem, TABLE.altItem
+{
+	
+	background-color: #EAEAEA;
+	border-color: #CCCCCC;
+}
+
+.subNavigation-area
+{
+    width: 180px;
+    height: 438px; 
+    vertical-align:text-top; 
+    white-space: nowrap;
+}
+
+.no-subNavigation-area
+{
+    width:10px;
+    height:438px;
+}
+
+.ProductImage
+{
+    
+}
+
+.ProductName
+{
+	font-size:12px;
+	font-weight:bold;
+	padding:.2em 6px;
+}
+
+.ProductDescription
+{
+	font-size:12px;
+	font-weight:normal;
+	padding:.2em 6px;
+}
+
+.ProductPrice
+{
+	font-size:12px;
+	font-weight:normal;
+	text-align: right;
+}
+
+FIELDSET.commonControls {
+    border:1px solid #ddd;
+    color: black;
+    padding:.2em 6px;
+}
+
+FIELDSET LEGEND.commonControls {
+     font: 13px;
+    font-weight: bold;
+    color: #333;
+    padding:.2em 6px;
+}
+
+
+TABLE.additionalInfo
+{
+    background-color: #EAEAEA;
+    border-color: #CCCCCC;
+}
+FIELDSET.additionalInfo {
+    border:1px solid #ddd;
+    color: black;
+    padding:.2em 6px;
+    background-color: #EAEAEA;
+}
+
+FIELDSET LEGEND.additionalInfo {
+    font: 13px;
+    font-weight: bold;
+    color: #333;
+    padding:.2em 6px;
+}
+
+.inputText 
+{
+	font:normal 12px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	color:#3E3E3E;
+	border:1px solid #cccccc;
+	padding-left:4px;
+}
+.inputTextRight
+{
+	font:normal 12px Verdana,sans-serif;
+	color:#3E3E3E;
+	border:1px solid #cccccc;
+	padding-left:4px;
+	text-align: right;
+}
+
+.requiredFieldIndicator
+{
+    color:Red;
+}
+.informational
+{
+    font-style: italic;
+    font-size: 10px;
+    color: #333;
+}
+
+.friendlyMessage
+{
+    
+}
+
+TABLE.friendlyMessage
+{
+    background-color: #E9E9E9;
+    border: thin solid #C0C0C0;
+    font-size: 12px;
+}
+
+.footerContent 				
+{
+    font-size:12px;
+	color: #FFFFFF;
+}
+
+.pageBody #footerContactUs { 
+	width: 901px;  /* 46em width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	font-size:12px;
+	color: #FFFFFF;
+} 
+
+
+
+A.footerLink:link, A.footerLink:visited, A.footerLink:active 
+{
+    color: #FFFFFF;
+}
+
+A.footerLink:hover {
+color: #E9E9E9;
+} 
+
+.pageBody #container { 
+	width: 901px;  /* 46em width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 5px solid #999;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+
+.pageBody #container p { 
+	font-size: 12px;
+} 
+
+.pageBody #container tall line height { 
+	font-size: 12px;
+	line-height: 5px;
+} 
+
+.pageBody #header { 
+	background: #DDDDDD; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+
+.pageBody #headernopadding, .headernopadding { 
+	background: #FFF;
+	/* border-bottom: 1px #999 solid; */
+} 
+
+.pageBody #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+.pageBody #mainContent {
+	
+	padding: 0px 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+
+
+.pageBody #footerLinks { 
+	background: none;
+	text-align: center;
+	font-size: 11px;
+	/* border-bottom: thin #666 solid; */
+} 
+
+.errorMessageBlock
+{
+    font-size: 12px;
+    border: thin solid #800000;
+    color: #800000;
+    background-color: #FFFF99;
+}
+
+A.errorMessage:hover {
+    text-decoration: underline; 
+} 
+ 
+ 
+A.errorMessage:link, A.errorMessage:visited, A.errorMessage:active, A.errorMessage:hover, .errorMessage
+{
+    font-size: 12px;
+    border: thin solid #800000;
+    color: #800000;
+    background-color: #FFFF99;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-decoration: underline;
+}
+
+
+.errorIndicator
+{
+    font-size: 12px;
+    color: #800000;
+}
+
+
+/*Link Tab CSS*/
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+#tabs{
+padding: 0;
+padding-top: 7px;
+width: 100%;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+#tabs ul{
+font: bold 11px arial,helvetica,clean,sans-serif;
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+#tabs li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+}
+
+#tabs a{
+float: left;
+display: block;
+color: white;
+margin: 0 1px 0 0; /*Margin between each menu item*/
+padding: 5px 10px;
+text-decoration: none;
+letter-spacing: 1px;
+background-color: #901824; /*Default menu color*/
+border-bottom: 1px solid white;
+}
+
+#tabs a:hover{
+background-color: gray; /*Menu hover bgcolor*/
+}
+
+#tabs .tabItemSelected a.tabItemSelected{ /*currently selected tab*/
+background-color: #211C5E; /*Brown color theme*/ 
+border-color: #211C5E; /*Brown color theme*/ 
+}
+
+#tabDivider{
+clear: both;
+padding: 0;
+width: 100%;
+height: 5px;
+line-height: 5px;
+background: #211C5E; /*Brown color theme*/ 
+}
+
+
+
+
+
+#profileLinks{
+font-weight: bold;
+width: 100%;
+}
+
+#profileLinks ul{
+padding: 0px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: right; 
+}
+
+#profileLinks ul li{
+display: inline;
+}
+
+#profileLinks ul li a{
+color: #494949;
+padding: 2px 3px 2px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-right: 10px; /*spacing between each menu link*/
+text-decoration: none;
+border-bottom: 3px solid gray; /*bottom border is 3px*/
+}
+
+#profileLinks ul li a:hover, #profileLinks ul li a.selected{
+border-bottom-color: #901824;
+}
+
+
+.subNavigationItems
+{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding:0;
+    white-space: nowrap;
+}
+ 
+li.navItem, A.navItem:link, A.navItem:visited, A.navItem:active, .navItem {
+    font-size:13px;
+    font-weight:bold;
+    color: #900;
+    text-decoration: none;
+}
+ 
+ 
+A.navItem:hover {
+    text-decoration: underline; 
+    color: #211C5E;
+} 
+ 
+ 
+A.navItemSelected:link, A.navItemSelected:visited, A.navItemSelected:active, A.navItemSelected:hover, .navItemSelected {
+    font-size:13px;
+    font-weight: bold;
+    color: #211C5E;
+    text-decoration: underline;
+}
+ 
+li.navItemSelected
+{
+        list-style-position: outside;
+        list-style-image: url(bullet.gif);
+        list-style-type:square;
+        text-indent: 0px;
+}
+ 
+ 
+A.navItemSelected:hover {
+    text-decoration: underline; 
+} 
+ 
+ 
+A.subNavItem:link, A.subNavItem:visited, A.subNavItem:active, .subNavItem {
+    font-size:12px;
+    color: #900;
+    text-decoration: none;
+    text-indent: 10px;
+}
+ 
+ 
+A.subNavItem:hover {
+text-decoration: underline;
+color: #211C5E; 
+} 
+ 
+A.subNavItemSelected:link, A.subNavItemSelected:visited, A.subNavItemSelected:active, A.subNavItemSelected:hover, .subNavItemSelected {
+    font-size:12px;
+    font-weight: bold;
+    color: #211C5E;
+    text-decoration: underline;
+}
+ 
+li.subNavItemSelected
+{
+        list-style-position: outside;
+        list-style-image: url(bullet.gif);
+        list-style-type:square;
+        text-indent: 10px;
+}
+ 
+ 
+A.subNavItemSelected:hover {
+text-decoration: underline; 
+} 
+
+table.shoppingCart td
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.ItemCategory
+{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.ItemProductName
+{
+}
+.ItemRequiredAttribute
+{
+}
+
+.colHeader
+{
+    font-weight:bolder;
+    font-size: 12px;
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.colHeaderLeft
+{
+    font-weight:bolder;
+    font-size: 12px;
+    color: #333;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.colDataRight
+{
+    font-size:11px;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.colData
+{
+    font-size:11px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.colDataCenter
+{
+    font-size:11px;
+    text-align: center;
+    vertical-align: top;
+}
+.colAdditionalInfo
+{
+    border: 1px dotted #000000;
+    font-size: 10px;
+}
+
+.orderTotalLabel
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+.orderTotalAmount
+{   
+    font-size: 12px;
+    text-align: right;
+}
+
+table.payByCreditCardTable
+{
+    
+}
+
+.label
+{
+    font-size: 12px;
+    color: #333333;
+}
+.labelNoWrap
+{
+    font-size: 12px;
+    color: #333333;
+   white-space:nowrap;
+}
+
+.labelStrong
+{
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.dataValue
+{
+    font-size: 12px;
+    color: #000000;
+}
+
+.dataValueStrong
+{
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.termsConditions
+{
+    border: 1px solid #C0C0C0;
+    font-size: 9px;
+    color: #000;
+    font-style: italic;
+}
+
+.techieInfo
+{
+    font-size: 9px;
+    color: #808080;
+    font-weight: bold;
+}
+
+A.mailTo
+{
+    color:Blue;
+    font-size:10px;
+}
+
+.modalBackground 
+{
+   background-color:#000;
+   filter: alpha(opacity=70);
+   opacity: 0.7;
+}
+
+.outerPopup 
+{
+    background-color:#fff;  
+    padding:1em 6px;
+}
+
+.innerPopup
+{
+    background-color:#fff;
+}
+
+table.searchTable
+{
+    background-color: #CCCCCC;
+}
+
+.searchOption
+{
+    
+}
+
+.sectionHeading
+{
+    background-color: #CCCCCC;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.sectionHeadingRight
+{
+    background-color: #CCCCCC;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    text-align: right;
+}
+
+.dataHighlight
+{
+    background-color: #FFFF99;
+}
+
+.versionNumber
+{
+    text-align: right;
+    font-size: 8px;
+    font-family: Arial;
+    color: #C0C0C0;
+}
+
+.rowHighlightError
+{
+    background-color: #FF3333;
+}
+
+
+/* Login page Controls */
+
+.loginContent 				
+{
+    font-size:12px;
+	color:#000000;
+}
+
+.loginContent #loginContainer { 
+	width: 75%;  /* 46em width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 5px solid #999;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.loginContent #loginHeadernopadding { 
+	background: #FFF;
+	border-bottom: 1px #999 solid;
+} 
+
+.loginTitle 
+{			
+    font-size:18px;
+    font-weight:bold;
+    color: black;
+}
+
+table.loginArea td
+{
+    padding: 1px 1px 1px 1px;
+}
+
+.loginLink
+{
+    font-style: italic;
+    font-size:11px;
+}
+
+table.loginContainer
+{
+    border-style: groove;
+    border-width: medium;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.loginImage
+{
+    height: 75px;
+}
+
+
+.loginShowName
+{
+    color: #900;
+    font-size: 16px;
+}
+
+.loginShowDates
+{
+    color: Black;
+    font-size: 11px;
+}
+
+.dataLabel
+{
+    font-weight: bold;
+}
+
+.dataLabelError
+{
+    color: Red;
+}
+
+#ownerLandingHeaderLeft
+{
+background: url("/images/expoorders-logo.png") no-repeat right top;
+    width: 633px;
+    height: 165px;
+    overflow: hidden;
+    padding-right: 20px;
+}

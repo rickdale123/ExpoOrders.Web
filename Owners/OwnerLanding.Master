@@ -1,0 +1,176 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OwnerLanding.Master.cs" Inherits="ExpoOrders.Web.Owners.OwnerLanding" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>ExpoOrders - Show Owner Welcome </title>
+    <meta http-equiv="Page-Enter" content="Alpha(opacity=100)"/>
+    <meta http-equiv="Pragma" content="no-cache">
+    
+    <script id="LibraryJS" type="text/javascript" src="<%# Page.ResolveUrl("~/Common/Library.js")%>" language="javascript"></script>
+    <link href="../Style/Owners.css" rel="stylesheet" type="text/css" />
+    <link id="OwnerStyleSheet" href="Styles/{OwnerStyle}" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="Body" class="pageBody" runat="server">
+    <form id="frmOwners" enctype="multipart/form-data" method="post" runat="server">
+    <telerik:RadScriptManager ID="ScriptManager1" runat="server" />
+        <br />
+        <div id="container">
+
+            <div class="headernopadding">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table width="901" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><img id="LeftLogo" src="" border="0" alt="Logo" runat="server" /></td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table width="100%" border="0" cellpadding="0" class="headernopadding">
+                <tr>
+                    <td width="70%">
+                        <div id="tabs">
+                            <asp:Repeater ID="TabsList" OnItemDataBound="TabsList_ItemDataBound" runat="server">
+                                <HeaderTemplate>
+                                    <ul>
+                                        <li></li>
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <li id="tabListItem" runat="server"><a class="tabItem" id="tabLink" runat="server"><span>TabDescriptionHere</span></a></li>
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    </ul>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </div>
+                        <div id="tabDivider"></div>
+                    </td>
+                    <td class="headerNavLinks">
+                        <div id="divSignout" align="right">
+                            <a href="mailto:support@expoorders.com">Help</a>
+                            &nbsp;|&nbsp;
+                        <a id="A1" href="~/Logout.aspx" runat="server">Sign Out</a></div>
+                   </td>
+                </tr>
+            </table>
+
+            <div id="mainContent">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td id="tdSubNavigationArea" class="subNavigation-area" style="white-space: nowrap;" runat="server">
+                            <asp:PlaceHolder ID="plcSubNavigationArea" Visible="false" runat="server">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="subNavigationHeader"><asp:Label ID="SubNavHeaderText" CssClass="subNavigationHeader" runat="server"></asp:Label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><hr /></td>
+                                    </tr>
+                                </table>
+
+                                    <asp:Repeater ID="SubNavigationList" Visible="false" OnItemDataBound="SubNavigationList_ItemDataBound" runat="server">
+                                        <HeaderTemplate>
+                                            <ul class="subNavigationItems">
+                                        </HeaderTemplate>
+                                        <ItemTemplate>
+                                            <li id="NavigationListItem" runat="server">
+                                                    <asp:Label ID="lblItem" runat="server" />
+                                                    <asp:LinkButton ID="lnkItem" OnClick="lnkItem_Click" runat="server" />
+                                             </li>
+                                        </ItemTemplate>
+                                        <FooterTemplate>
+                                            </ul>
+                                            <hr />
+                                        </FooterTemplate>
+                                    </asp:Repeater>
+                            </asp:PlaceHolder>
+                        </td>
+                        <td width="20" valign="top">&nbsp;</td>
+                        <td width="670" valign="top">
+                            <table width="100%" border="0" cellpadding="0">
+                                <tr>
+                                    <td class="userInfo"><asp:literal ID="ltrCurrentUser" runat="server"/> <asp:Literal ID="ltrBoothInfo" runat="server" /></td>
+                                </tr>
+                            </table>
+                            <br />
+                             <asp:PlaceHolder ID="plcFriendlyMessage" Visible="false" runat="server">
+                                    <table class="friendlyMessage" border="0" width="100%" cellpadding="3" cellspacing="0">
+                                        <tr>
+                                            <td class="friendlyMessage"><asp:Literal ID="ltrFriendlyMessage" runat="server" /></td>
+                                        </tr>
+                                    </table>
+                                </asp:PlaceHolder>
+
+                                <asp:PlaceHolder ID="plcDynamicContent" Visible="false" runat="server">
+
+                                    <asp:PlaceHolder ID="plcDynamicContentHeader" Visible="false" runat="server">
+                                        <h1><asp:Literal ID="ltrDynamicContentHeader" runat="server" /></h1>
+                                    </asp:PlaceHolder>
+
+                                    <asp:Literal ID="ltrDynamicContent" runat="server" />
+
+                                </asp:PlaceHolder>
+                            <asp:ContentPlaceHolder ID="PageContent" runat="server">
+                               
+        
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div id="footerLinks">
+            <table width="100%" border="0" cellpadding="0">
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="footerContent">
+                        <asp:Repeater ID="FooterNavigationLinks" OnItemDataBound="FooterNavigationLinks_ItemDataBound" runat="server">
+                            <ItemTemplate>
+                                <asp:HyperLink ID="lnkFooterNavigationLink" CssClass="footerLink" runat="server" />&nbsp; |&nbsp; 
+                            </ItemTemplate>
+                        </asp:Repeater>
+                        
+                    </td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+               
+            </table>
+
+            <asp:Label ID="lblWebVersionNumber" CssClass="versionNumber" runat="server" />
+        </div>
+    </form>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38869638-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+</body>
+</html>
+

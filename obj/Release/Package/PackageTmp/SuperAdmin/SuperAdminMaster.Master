@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SuperAdminMaster.master.cs" Inherits="ExpoOrders.Web.SuperAdmin.SuperAdminMaster" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>ExpoOrders - Super Admin</title>
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <link href="Site.css" rel="stylesheet" type="text/css" />
+    <script src="<%# Page.ResolveUrl("~/Common/jquery.1.11.3.min.js")%>" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
+
+
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>ExpoOrders Super Admin Utility</h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <a href="~/SuperAdmin/Default.aspx" ID="A1" runat="server">Home</a> ]
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/Logout.aspx"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/UserManager.aspx" Text="User Manager" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/OwnerConfig.aspx" Text="Owner Config" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/EmailLog.aspx" Text="Email Logs" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/Transactions.aspx" Text="Transaction Logs" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/ShowStats.aspx" Text="Show Stats" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/SessionLog.aspx" Text="Session Logs" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/HelpContent.aspx" Text="Help Content" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/Utils.aspx" Text="Utilities" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/ServiceMgr.aspx" Text="Service Mgr" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/Sql.aspx" Text="SQL" />
+                        <asp:MenuItem NavigateUrl="~/SuperAdmin/Archive.aspx" Text="Archive" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <CustomControls:ValidationErrors ID="PageErrors" CssClass="errorMessageBlock" runat="server" />
+            <asp:PlaceHolder ID="plcFriendlyMessage" Visible="false" runat="server">
+                <table class="friendlyMessage" border="0" width="100%" cellpadding="3" cellspacing="0">
+                    <tr>
+                        <td class="friendlyMessage">
+                            <asp:Literal ID="ltrFriendlyMessage" runat="server" />
+                        </td>
+                    </tr>
+                </table>
+            </asp:PlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38869638-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>

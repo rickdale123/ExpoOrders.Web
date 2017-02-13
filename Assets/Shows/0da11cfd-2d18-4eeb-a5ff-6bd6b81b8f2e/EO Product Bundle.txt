@@ -1,0 +1,54 @@
+Product Bundling Requirement:
+
+1. Database changes:
+	a. New table: 
+
+	ProductBundle
+		(fk) ProductId
+		(fk) AssociatedProductId
+		QuantityToInclude
+		SortOrder
+		ModifiedDate
+		ModifiedBy (userId of the currently logged on Admin user)
+		
+		
+	b. Add Product.IsBundleFlag (nullable integer)
+
+
+2. Admin.ProductDetail Screen changes
+	a. Add a new 'section' to the Product Detail screen to include 'Is Product Bundle?' yes/no radiobutton
+	b. When 'yes', display datagrid of currently associated Products (ProductName, Qty, SortOrder) in table above.
+	c. Ability to Add/Delete an Associated Product (please ensure the modified date/by are inserted/updated as necessary)
+	d. When 'no' selected, please ensure any ProductBundle rows are deleted
+	
+	
+3. Exhibitor Checkout flow
+	a. Within the 'Create Order' flow, need to interogate the Product.IsBundleFlag for 'yes'
+	b. when 'yes', the Bundle itself will remain as-is (with calculated costs and fees),
+	c. when 'yes', automatically create the OrderItems based on the ProductBundle above (Quantity comes from table, cost = $0.00) and please ensure the ItemIndex is maintained so that the 'Exploded' OrderItems under the Bundle are retained according to Sortorder of the bundle.
+	
+4. Stored procedure changes
+	a. sp_CopyShow needs to account for the old/new ProductIds in the new table above when you copy the Show
+	b. sp_CopyCategory needs to account for the old/new ProductIds in the new table above when you copy the category
+	
+
+
+The end-user flow is that:
+1. Admin sets up a bundle ('Booth Package #1') that includes 1 table and 2 chairs.
+2. Exhibitor purchases the 'Booth Package #1' from the site and is added to cart as usual
+3. Exhibitor provides payment details and clicks the 'I accept' checkbox
+4. When the Order is Created, the Order table will be the same, but the OrderItem table will include:
+	- a line item for 'Booth Package #1' (quantity = 1); normal pricing/fees, etc.
+	- a line item for 'Table' (quantity = 1); $0.00 cost and fees
+	- a line item for 'Chair' (quantity = 2); $0.00 cost and fees
+	
+	
+So, really the only thing we're doing is automatically exploding the ProductBundle into the Associated Line items.  And apart from that, there should theoretically be nothing else to do.
+
+
+
+	
+
+	
+
+

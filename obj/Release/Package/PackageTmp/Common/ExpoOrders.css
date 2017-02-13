@@ -1,0 +1,48 @@
+﻿body
+{
+    background-color: #FFFFFF;
+    font-family: 'Californian FB';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFF99;
+}
+A
+{
+    font-family: 'Californian FB';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    color: blue;
+    text-decoration: underline;
+}
+
+H1
+{
+    background-color: #003399;
+    font-family: 'Californian FB';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFF99;
+}
+H2
+{
+    background-color: #003399;
+    font-family: 'Californian FB';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: #999999;
+}
+.errorMessageBlock
+{
+    border: thin solid #800000;
+    color: #800000;
+    background-color: #FFFF99;
+}
+.errorMessage
+{
+    color: #800000;
+}
+

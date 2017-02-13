@@ -1,0 +1,16 @@
+<merchantConfig>
+<serviceUrl>https://merchantaccount.quickbooks.com/j/AppGateway</serviceUrl>
+<applicationLogin>completexpo.completexpo.expoorders.com</applicationLogin>
+<applicationId>213229021</applicationId>
+<connectionTicket>TGT-162-hcKCEaObofstjgpl66f4eg</connectionTicket>
+<language>English</language></merchantConfig>
+
+
+
+
+<merchantConfig>
+<serviceUrl>https://merchantaccount.ctcfe.quickbooks.com/j/AppGateway</serviceUrl>
+<applicationLogin>completexpo.completexpo.expoorders.com</applicationLogin>
+<applicationId>213229021</applicationId>
+<connectionTicket>TGT-162-hcKCEaObofstjgpl66f4eg</connectionTicket>
+<language>English</language></merchantConfig>

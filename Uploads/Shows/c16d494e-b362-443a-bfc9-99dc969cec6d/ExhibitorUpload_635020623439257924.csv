@@ -1,0 +1,106 @@
+[TITLE],[FIRSTNAME],[LASTNAME],[USERNAME],[PASSWORD],[COMPANYNAME],[STREET1],[STREET2],[CITY],[STATECODE],[POSTALCODE],[COUNTRYCODE],[PHONE],[PRIMARYEMAILADDRESS],[BOOTHNUMBER],[BOOTHDESCRIPTION],[BOOTHNOTES]
+,Doug,Schiff,dbs@3rdtech.com,AASF 2013,3rdTech,2500 Meridian Parkway, Ste 150,Durham,NC,27713,USA,919-361-2148,dbs@3rdtech.com,325,3rdTech,919-484-1092
+,Shari,Jongejan,shari.jongejan@absciex.com,AASF 2013,AB SCIEX,500 Old Connecticut Path,,Framingham,MA,01701,USA,(877) 740-2129,shari.jongejan@absciex.com,408,AB SCIEX,(650) 627-2625
+,Conference,Exhibits,Exhibits@abacusdiagnostics.com,AASF 2013,Abacus Diagnostics,6520 Platt Avenue, #220,West Hills,CA,91307,USA,8187164735,Exhibits@abacusdiagnostics.com,429,Abacus Diagnostics,
+,Don,Cavadini,cavadini@academicfp.com,AASF 2013,Academic Forensic Pathology Incorportated,6927-48 Street SE,Suite 200,Calgary,AB,T2C 5A4,Canada,1-888-909-7856,cavadini@academicfp.com,208,Academic Forensic Pathology Incorporated,
+,Lauren,Fondren,lauren.fondren@aegislabs.com,AASF 2013,Aegis Sciences Corporation,515 Great Circle Road,,Nashville,TN,37228,USA,(615) 255-2400,lauren.fondren@aegislabs.com,618,Aegis Sciences Corporation,
+,Lori,Hicks,lhicks@aitlabs.com,AASF 2013,AIT LAboratories,2265 Executive Drive,,Indianapolis,IN,46241,USA,800-875-3894,lhicks@aitlabs.com,226,AIT Laboratories,317-715-8921
+,David,Patterson,dpatterson@arpoffice.net,AASF 2013,American Registry of Pathology,120 Old Camden Road, Ste A,Camden,DE,19934,USA,302-387-6811,dpatterson@arpoffice.net,504,American Registry of Pathology,302-535-8811
+,Jong,Yoo,accounting@appliedspectra.com,AASF 2013,Applied Spectra Inc.,46665 Fremont Blvd,,Fremont,CA,94538,USA,510-657-7679,accounting@appliedspectra.com,215,Applied Spectra,
+,Kimberlee,Winterton,kwinterton@aribex.com,AASF 2013,Aribex Inc.,744 S 400 E,,Orem,UT,84097,USA,8012265522,kwinterton@aribex.com,707,Aribex/Focused Forensics,8014347233
+,Eamonn,Cooney,ecooney@arroforensics.com,AASF 2013,ARRO Forensics Ltd,INEX Business Facility Newcastle University Campus,Newcastle upon Tyne,Newcastle upon Tyne,,NE1 7RU,United Kingdom,+44 (0)191 222 357,ecooney@arroforensics.com,414,ARRO Forensics,
+,Brianna,McCreary,bmccreary@arrowheadforensics.com,AASF 2013,Arrowhead Forensics,11030 Strang Line Road,,Lenexa,KS,66215,USA,(913) 894-8388,bmccreary@arrowheadforensics.com,510 & 512,Arrowhead Forensics,
+,Tyler,Harris,ty_h@asapanalytical.com,AASF 2013,ASAP Analytical,1511 Neave Street,,Covington,KY,41011,USA,(859) 6990,ty_h@asapanalytical.com,712,ASAP Analytical,
+,Anja,Einseln,anja@ascld-lab.org,AASF 2013,ASCLD Lab,139 J Technology Drive,,Garner,NC,27529,USA,(919) 773-2600,anja@ascld-lab.org,427,ASCLD/LAB,
+,Patricia,Bauce,patricia@attestor-forensics.com,AASF 2013,Attestor Forensics GmbH,Ravensburger,Str. 6,Bad Wurzach,,88410,Germany,+49-172-7330-856,patricia@attestor-forensics.com,719,Attestor Forensics GmbH,
+,Rachel,Rawlings,rachel.rawlings@baesystems.com,AASF 2013,BAE Systems,16541 Commerce Drive,,King George,VA,22485,USA,(540) 663-2636,rachel.rawlings@baesystems.com,522,BAE Systems,
+,Thomas,Moyer,tom@baltpi.com,AASF 2013,Baltimore Precision Instruments LLC,8846 Belair Road,,Baltimore,MD,21236,USA,(410) 248-1234,tom@baltpi.com,524,Baltimore Precision Instruments,(410) 248-1244
+,Lauren,Hanna,lauren.hanna@biotage.com,AASF 2013,Biotage LLC,10430 Harris Oaks Boulevard,Ste C,Charlotte,NC,28269,USA,(704) 654-4900,lauren.hanna@biotage.com,425,Biotage,(704) 654-4917
+,Jeff,Shaw,jeff@boneclones.com,AASF 2013,Bone Clones Inc.,21416 Chase Street,,Canoga Park,CA,91304,USA,818-709-7991,jeff@boneclones.com,329,"Bone Clones, Inc.",818-709-7993
+,Nancy,Ross,nancy.wright-ross@brukeroptics.com,AASF 2013,Bruker Corporation,19 Fortune Drive,,Billerica,MA,01821,USA,(978) 439-9899 x5216,nancy.wright-ross@brukeroptics.com,311,Bruker Corporation,(978) 663-9177
+,Ashley,Kirchmyer,ashley@cnascientific.com,AASF 2013,C & A Scientific,7241 Gabe Court,,Manassas,VA,20109,USA,(703) 330-1413,ashley@cnascientific.com,420,C & A Scientific,(703) 330-7510
+,Erin,Lenhardt,erin.lenhardt@pipetpeople.com,AASF 2013,Calibrate Inc.,610 Jones Ferry Road,Ste 210,Carrboro,NC,27510,USA,9192404089,erin.lenhardt@pipetpeople.com,321,"Calibrate, Inc.",
+,Karin,Salerno,ksalerno@zeiss.com,AASF 2013,Carl Zeiss Microscopy LLC,One Zeiss Drive,,Thornwood,NY,10594,USA,9146817627,ksalerno@zeiss.com,222,Please place us next to IFI,
+,Jennifer,Wagner,jwagner@caymanchem.com,AASF 2013,Cayman Chemical Company,1180 E Ellsworth Road,,Ann Arbor,MI,48108,USA,734-971-3335,jwagner@caymanchem.com,428,Cayman Chemical Company,734-971-3420
+,Carol,Sybrowsky,sybrocw@labcorp.com,AASF 2013,CELLMARK Forensics,13988 Diplomat Drive,Ste 100,Dallas,TX,75234,USA,(800) 872-5227,sybrocw@labcorp.com,718,CELLMARK Forensics,
+,Victoria,Gutierrez,victoria_gutierrez@cerilliant.com,AASF 2013,Cerilliant,811 Paloma Drive,Ste A,Round Rock,TX,78665,USA,(512) 310-5100,victoria_gutierrez@cerilliant.com,409,Cerilliant,
+,Linda,Batykefer,bandurskib@chemimage.com,AASF 2013,ChemImage,7301 Penn Avenue,,Pittsburgh,PA,15208,USA,(724) 443-1900,bandurskib@chemimage.com,615,ChemImage,(866) 658-1445
+,Catherine,Brown,cbrown@cts-interlab.com,AASF 2013,Collaborative Testing Services,21331 Gentry Drive,,Sterling,VA,20166,USA,571-434-1925,cbrown@cts-interlab.com,327,Collaborative Testing Services Inc.,571-434-1937
+,Arlene,Adolfo,sales@Microspectra.com,AASF 2013,CRAIC Technologies,948 N Amelia Avenue,,San Dimas,CA,91773,USA,310-573-8180,sales@Microspectra.com,206,CRAIC Technologies,310-573-8182
+,Nancy,Logal,nancy.logal@taylorandfrancis.com,AASF 2013,CRC Press  Taylor & Francis Group LLC,6000 Broken Sound Pky NW,Ste 300,Boca Raton,FL,33487,USA,561-998-2507,nancy.logal@taylorandfrancis.com,"605, 607, 706, 704",CRC Press - Taylor & Francis Group LLC,561-998-2559
+,Bruce,McIntosh,brucem@crimelabdesign.com,AASF 2013,Crime Lab Design,411 North Tenth Street,Suite 400,St. Louis,MO,63101,USA,(314) 289-9202,brucem@crimelabdesign.com,121,Crime Lab Design,(314) 289-6167
+,Donna,Scheuble,donna@cybgen.com,AASF 2013,Cybergenetics,160 N Craig Street,Ste 210,Pittsburgh,PA,15213,USA,412.683.3004,donna@cybgen.com,424,CYBERGENETICS,412.683.3005
+,Flora,Kan,fkan@duii.com,AASF 2013,Data Unlimited International Inc.,15881-B Crabbs Branch Way,,Rockville,MD,20855,USA,240-631-7933,fkan@duii.com,312,"Data Unlimited International, Inc.",888-501-3060
+,Sandra,Pierre-Lys,s.pierre.lys@elsevier.com,AASF 2013,Elsevier,360 Park Avenue S,,New York,NY,11010,USA,(631) 665-1833,s.pierre.lys@elsevier.com,"413, 415",ELSEVIER,
+,Ruth,Prillaman,ruth@evident.cc,AASF 2013,EVIDENT,739 Brooks Mill Road,,Union Hall,VA,24176,USA,800-576-7606,ruth@evident.cc,203 & 205,EVIDENT,888-384-3368
+,Cindi,Lilly,klunder1@llnl.gov,AASF 2013,FACSS,2019 Galisteo Street,Bldg I-1,Santa Fe,NM,87505,USA,(505) 820-1648,klunder1@llnl.gov,324,FACSS,
+,Zetta,Dumkrieger,zdumkrieger@faxitron.com,AASF 2013,Faxitron,3440 E Britannia Drive,Ste 150,Tucson,AZ,85706,USA,520-399-8180,zdumkrieger@faxitron.com,211,Faxitron,
+,Christine,Fitz,cfitz@fitzcoinc.com,AASF 2013,Fitzco Inc.,4300 Shoreline Drive,,Spring Park,MN,55384,USA,952-224-2700,cfitz@fitzcoinc.com,"117, 119",Fitzco Inc.,952-224-2717
+,Pete,Eklund,pwe@tcsc.com,AASF 2013,Forensic Advantage Systems,1525 Huguenot Road,,Midlothian,VA,23113,USA,804-794-3491,pwe@tcsc.com,705,Forensic Advantage Systems,804-794-6194
+,Laura,Murphy,showmgr_for@viconmedia.com,AASF 2013,Forensic Magazine,199 Route 101,Bldg 7 PO Box 779,Amherst,NH,03031,USA,973-920-7000,showmgr_for@viconmedia.com,229,Forensic Magazine,603-672-3028
+,Barbara,Summers,barbara.summers@baesystems.com,AASF 2013,Forensics Source,13386 International Parkway,,Jacksonville,FL,32218,USA,(904) 741-1765,barbara.summers@baesystems.com,"410, 412",Forensics Source,
+,Amy,Temenak,amy.temenak@fosterfreeman.com,AASF 2013,Foster & Freeman USA,46030 Manekin Plaza,Ste 170,Sterling,VA,20166,USA,(888) 445-5048,amy.temenak@fosterfreeman.com,"701, 703",Foster & Freeman USA,(888) 445-5049
+,Roger,Muse,rmuse@anab.org,AASF 2013,FQS/ANSI-ASQ National Accreditation Board,500 Montogomery Street,Ste 502,Alexandria,VA,22314,USA,703-836-0025,rmuse@anab.org,318,FQS - ANSI-ASQ National Accreditation Board,
+,Beat,Steger,mueller@fumedica.ch,AASF 2013,FUMEDICA AG,Luzernerstrasse 91,,Muri,,CH-5630,Switzerland,0041 79 961 5294,mueller@fumedica.ch,220,FUMEDICA,
+,Liz,Pita,liz.pita@ge.com,AASF 2013,GE Healthcare,800 Centennial Avenue,PO Box 1327,Piscataway,NJ,08855,USA,(800) 526-3593,liz.pita@ge.com,309,GE Healthcare,(877) 295-8102
+,Sayaka,Ishida,sayaka@hirox-usa.com,AASF 2013,"Hirox-USA, Inc.",100 Commerce Way,Ste 4,Hackensack,NJ,07601,USA,2013422600,sayaka@hirox-usa.com,209,"Hirox-USA, Inc.",2013427322
+,Pam, Kocher,pam.kocher@idealinnovations.com,AASF 2013,Ideal Innovations Inc.,950 N. Glebe Rd,Ste. 800,Arlington,VA,22203,USA,3046410958,pam.kocher@idealinnovations.com,223,"Ideal Innovations, Inc.",8008469805
+,Dina,Mattes,dina@ifi-test.com,AASF 2013,Independent Forensics,500 Waters Edge,Suite 210,Lombard,IL,60148,USA,708-234-1200,dina@ifi-test.com,200,Independent Forensics,708-978-5115
+,Cynthia,Garb,cynthiag@integenx.com,AASF 2013,IntegenX Inc.,5720 Stoneridge Drive, Ste 300,Pleasanton,CA,94588,USA,925-701-3436,cynthiag@integenx.com,"110, 112",IntegenX Inc.,925-574-7373
+,Kim,Day,kimday@iafn.org,AASF 2013,International Association of Forensic Nurses,6755 Business Parkway,Ste 303,Elkridge,MD,21075,USA,4106267805 ext 103,kimday@iafn.org,418,International Association of Forensic Nurses,
+,Brian,Musselman,musselman@ionsense.com,AASF 2013,IonSense Inc.,999 Broadway,Ste 404,Saugus,MA,01906,USA,(781) 231-1739,musselman@ionsense.com,405,"IonSense, Inc",(781) 248-0271
+,Melissa,Ranieri,melissa@ixrfsystems.com,AASF 2013,IXRF Systems Inc.,3019 Alvin DeVane Boulevard,Ste 130,Austin,TX,78741,USA,5123866100,melissa@ixrfsystems.com,224,"IXRF Systems, Inc.",5123866105
+,Dag,Kubin,kubin@j-m.de,AASF 2013,J&M Analytik AG,Willy Messerschmitt,Str. 8,Essingen,,73457,Germany,+49-736-192810,kubin@j-m.de,305,J&M Analytik AG,+49-736-1928-112
+,Marcy,Corey,corey@jeol.com,AASF 2013,JEOL USA Inc.,11 Dearborn Road,,Peabody,MA,01960,USA,978-535-5900,corey@jeol.com,"202, 204","JEOL USA, INC",978-536-2264
+,Gregory,Brewer,gregory.brewer@jpac.pacom.mil,AASF 2013,JPAC Central Identification Laboratory,310 Worchester Avenue, Bldg 45,Joint Base Pearl Harbor Hickam,HI,96853,USA,(808) 448-1731,gregory.brewer@jpac.pacom.mil,614,Joint POW MIA Accounting Command (JPAC) Central Identification Laboratory,(8080 782-1847
+,Mary,Cook,mary.cook@justicetrax.com,AASF 2013,JusticeTrax,One West Main Street,,Mesa,AZ,85201,USA,480-222-8921,mary.cook@justicetrax.com,302,JusticeTrax,480-222-8999
+,Susanne,Dresser,sdresser@kubtec.com,AASF 2013,Kubtec Digital X-ray,270 Rowe Avenue,Unit E,Milford,CT,06461,USA,(203) 364-8544,sdresser@kubtec.com,626,Kubtec Digital X-ray,
+,Margaret,Berdelman,mberdelman@leedsmicro.com,AASF 2013,Leeds Forensic Systems Inc.,17300 Medina Road, Ste 600,Minneapolis,MN,55447,USA,(763) 546-8575,mberdelman@leedsmicro.com,"623, 625","Leeds Forensic Systems, Inc.",(763) 546-4369
+,Susie,Przybylski,susie.przybylski@leica-microsystems.com,AASF 2013,Leica Microsystems,1700 Leider Lane,,Buffalo Grove,IL,60089,USA,8002480123,susie.przybylski@leica-microsystems.com,"304,306, 308",Leica Microsystems,
+,Randy,Nagy,randy.nagy@lgcforensics.com,AASF 2013,LGC Forensics,7126 New Washburn Way,,Madison,WI,53719,USA,608-320-9277,randy.nagy@lgcforensics.com,115,LGC Forensics,
+,Delaney,Fendo,delaney.fendo@lifetech.com,AASF 2013,Life Technologies,850 Lincoln Centre,,Foster City,CA,94404,USA,.,delaney.fendo@lifetech.com,"601, 603, 700, 702",.,
+,Pamla,Mogoon,pamla.magoon@lmco.com,AASF 2013,Lockheed Martin,6801 Rockledge Drive,,Bethesda,MD,20817,USA,(301) 640-2922,pamla.magoon@lmco.com,313,Lockheed Martin,
+,Martin,Kulis,marty.kulis@lodox.com,AASF 2013,Lodox NA LLC,143 Burton Street,,Painesville,OH,44060,USA,440-724-8002,marty.kulis@lodox.com,422,Lodox NA LLC,440-352-3030
+,Richard,Warrington,dwarrington@peaveycorp.com,AASF 2013,Lynn Peavey Co.,10749 W 84th Terrace,,Lenexa,KS,66214,USA,785-266-3023,dwarrington@peaveycorp.com,227,Lynn Peavey Co.,
+,Ulla,Gjorstrup,ug@phadebas.com,AASF 2013,Magle Life Sciences,155 Brookline Street, #5,Cambridge,MA,02139,USA,617 945 0118,ug@phadebas.com,221,Magle Life Sciences,312 276 8114
+,Debbie,Holte,dholte@mccrone.com,AASF 2013,McCrone Group,850 Pasquinelli Drive,,Westmont,IL,60559,USA,(630) 887-7100,dholte@mccrone.com,506,The McCrone Group,
+,Tobi,Bartling,tbartling@mideosystems.com,AASF 2013,Mideo Systems Inc.,15206 Transistor Lane,,Huntington Beach,CA,92649,USA,(800) 258-1066,tbartling@mideosystems.com,403,Mideo Systems Inc.,(714) 890-1339
+,Jeanne,Stapleton,jstapleton@minxray.com,AASF 2013,MinXray Inc.,3611 Commerical Avenue,,Northbrook,IL,60062,USA,(847) 564-0323,jstapleton@minxray.com,320,"MinXray, Inc.",(847) 564-9040
+,Michael,Lambert,mlambert@ncjrs.gov,AASF 2013,National Institute of Justice,2277 Research Boulevard,,Rockville,MD,20850,USA,(301) 988-8534,mlambert@ncjrs.gov,619,National Institute of Justice,(301) 519-5711
+,Kim,Moraniec,kmoraniec@umaryland.edu,AASF 2013,NICHD Brain and Tissue Bank for Developmental Dis,655 W. Baltimore St,"BRB, Room 13-013",Baltimore,MD,21201,USA,410-706-1755,kmoraniec@umaryland.edu,407,NICHD Brain and Tissue Bank for Developmental Disorders,
+,Tracy,Bauer,tracy@nichevision.com,AASF 2013,NicheVision Forensics LLC,526 S Main Street,Ste 714G,Akron,OH,44311,USA,(866) 840-3758,tracy@nichevision.com,314,NicheVision Forensics LLC,(330) 252-2713
+,Diane,Diane Decker,diane.decker@nist.gov,AASF 2013,NIST,100 Bureau Drive,Stop 2310,Gaithersburg,MD,20899,USA,301-975-3774,diane.decker@nist.gov,114,National Institute of Standards and Technology,301-926-0416
+,Amanda,Shirk,amanda.shirk@nmslabs.com,AASF 2013,NMS Labs,3701 Welsh Road,,Willow Grove,PA,19090,USA,215-366-1405,amanda.shirk@nmslabs.com,219,NMS Labs,
+,Mary,Uffelmann,mary@ppo.ca,AASF 2013,P&P Optica Inc.,680-A Davenport Road,,Waterloo,ON,N2V 2C3,Canada,(519) 576-0007,mary@ppo.ca,307,P&P Optica Inc.,
+,Kim,Gorman,kim@ptclabs.com,AASF 2013,Paternity Testing Corporation,300 Portland Street,,Columbia,MO,65201,USA,(573) 442-9948,kim@ptclabs.com,616,Erase Sperm Isolation Kit,(314) 707-2485
+,Nathan,Lawrence,nlawrence@pressurebiosciences.com,AASF 2013,Pressure Biosciences Inc.,14 Norfolk Avenue,,South Easton,MA,02375,USA,(508) 230-1828,nlawrence@pressurebiosciences.com,620,"Pressure Biosciences, Inc.",(508) 580-1829
+,Julia,Langbehn,julia.langbehn@promega.com,AASF 2013,Promega Corporation,2800 Woods Hollow Road,,Madison,WI,53711,USA,608-274-4330,julia.langbehn@promega.com,"526, 528",Promega Corporation,608-273-6455
+,Ronda,Keys,ronda.keys@qiagen.com,AASF 2013,Qiagen,19300 Germantown Road,,Germantown,MD,20874,USA,(240) 686-7688,ronda.keys@qiagen.com,621,QIAGEN,
+,Katie,Gignac,kgignac@qualtrax.com,AASF 2013,Qualtrax,105 Industrial Drive,,Christiansburg,VA,24073,USA,800.277.3077,kgignac@qualtrax.com,323,Qualtrax,540.382.4701
+,Jennifer,Chang,jchang@quantumsignal.com,AASF 2013,Quantum Signal LLC,200 Ann Arbor Street,,Saline,MI,48176,USA,734-429-9100,jchang@quantumsignal.com,225,"Quantum Signal, LLC",734-429-9113
+,Aodheen,Dougan,aodheen.dougan@randoxtoxicology.com,AASF 2013,Randox Toxicology,30 Cherryvally Road,Crumlin,Co. Antrim,,00000,United Kingdom,+44-28-9442-2413,aodheen.dougan@randoxtoxicology.com,711,Randox Toxicology,+44-28-9445-2912
+,Sean,Kelley,sean.kelley@restek.com,AASF 2013,Restek Corporation,110 Benner Circle,,Bellefonte,PA,16823,USA,(814) 353-1300,sean.kelley@restek.com,411,Restek Corporation,
+,Kyle,James,kyle.james@retsch-us.com,AASF 2013,Retsch Inc.,74 Walker Lane,,Newtown,PA,18740,USA,(866) 473-8724,kyle.james@retsch-us.com,310,RETSCH INC.,(267) 757-0358
+,James,Nesbitt,jnesbitt@rjlg.com,AASF 2013,RJ Lee Group,350 Hochberg Road,,Monroeville,PA,15146,USA,(724) 387-1979,jnesbitt@rjlg.com,518,To follow,(412) 298-7625
+,Sharon,Marshall,sharon@rofin.com.au,AASF 2013,Rofin Australia Pty Ltd,42-44 Garden Boulevard,Unit 6,Dingley,,3172,Australia,+61 3 9558 0344,sharon@rofin.com.au,600 & 602,Rofin Australia P/L,+61 3 9558 0252
+,Erica,Harbison,eharbison@rti.org,AASF 2013,RTI International,3040 Cornwallis Road,"Bldg 3, Rm 122",Research Triangle Park,NC,27709,USA,919-514-6012,eharbison@rti.org,118 & 120,"RTI International
+Forensic Technology Center of Excellence",
+,Andy,Mariella,amariella@sirchie.com,AASF 2013,Sirchie,100 Hunter Place,,Youngsville,NC,27596,USA,8003567311,amariella@sirchie.com,"210, 212",Sirchie,8008998181
+,Eric,Humphries,eric@skullsunlimited.com,AASF 2013,Skulls Unlimited International Inc.,10313 S Sunnylane Road,,Oklahoma City,OK,73160,USA,(405) 794-9300,eric@skullsunlimited.com,423,"Skulls Unlimited International, Inc.",
+,Christine,Dearing,cdearing@sorensonforensics.com,AASF 2013,Sorenson Forensics,2495 S West Temple,,Salt Lake City,UT,84115,USA,801-462-1435,cdearing@sorensonforensics.com,207,Sorenson Forensics,800-405-3168
+,Kelly,Tannacore,ktannacore@spectroline.com,AASF 2013,Spectronics Corporation,956 Brush Hollow Road,,Westbury,NY,11590,USA,(800) 274-8888,ktannacore@spectroline.com,406,Spectronics Corporation,(800) 354-2353
+,Timothy,Stacy,tim.stacy@stacsdna.com,AASF 2013,STaCS DNA,10605 Barn Swallow Court,,Fairfax,VA,22032,USA,(703) 403-0022,tim.stacy@stacsdna.com,419,STaCS DNA,(7030 403-0022
+,Doris,Menegazzo,doris.menegazzo@starlims.com,AASF 2013,STARLIMS,4000 Hollywood Boulevard,,Hollywood,FL,33021,USA,954-964-8663,doris.menegazzo@starlims.com,612,STARLIMS,954-964-8113
+,Cindy,Christensen,cchristensen@streck.com,AASF 2013,Streck,7002 S 109th Street,,Omaha,NE,68128,USA,(402) 691-7452,cchristensen@streck.com,514,Streck,
+,Amanda,Patterson,amanda.patterson@taylorandfrancis.com,AASF 2013,Taylor and Francis,325 Chestnut Street,Ste 800,Philadelphia,PA,19106,USA,2156258900,amanda.patterson@taylorandfrancis.com,710,Taylor & Francis,2156252940
+,Claire,Rhodes,claire.rhodes@tecan.com,AASF 2013,Tecan,9401 Globe Center Drive,Ste 140,Morrisville,NC,27560,USA,919-452-5891,claire.rhodes@tecan.com,611,Tecan,919-361-5201
+,Joni,Miller,joni.miller@thermofisher.com,AASF 2013,Thermo Scientific,5225 Verona Road,,Madison,WI,53711,USA,608-276-6100,joni.miller@thermofisher.com,"111, 113, 216, 218",Thermo Scientific,
+,Kim,Benton,kbenton@tritechusa.com,AASF 2013,TRITECH FORENSICS,4019 Executive Park Boulevard SE,,Southport,NC,28461,USA,(910) 457-6600,kbenton@tritechusa.com,213,TRITECH FORENSICS,(910) 457-0094
+,Brian,Ramey,bramey@troemner.com,AASF 2013,Troemner,201 Wolf Drive,,Thorofare,NJ,08086,USA,(856) 686-4227,bramey@troemner.com,116,Troemner,(856) 686-4201
+,Elizabeth,Wictum,bethw@ucdavis.edu,AASF 2013,UC Davis Veterinary Forensic Genetics Laboratory,UC Davis Vet Genetics Lab Forensic Unit,One Sheilds Avenue,Davis,CA,95616-8744,USA,530-754-9050,bethw@ucdavis.edu,426,"UC Davis Veterinary Genetics Laboratory, Forensics",530-309-4309
+,Kellie,Sanker,ksanker@veripic.com,AASF 2013,VeriPic,2360 Walsh Avenue,,Santa Clara,CA,95051,USA,(408) 496-1200 x134,ksanker@veripic.com,303,VeriPic,
+,Lee W,Miller,paula@vertiq.com,AASF 2013,VertiQ Software LLC,135 E Main Avenue,Ste 150,Morgan Hill,CA,95037,USA,(408) 778-0608,paula@vertiq.com,404,VertiQ Software LLC,
+,Beth,Lauzon,bethany_a_lauzon@waters.com,AASF 2013,Waters Corporation,34 Maple Street,,Milford,MA,01757,USA,5084782000,bethany_a_lauzon@waters.com,319,Waters Corporation,
+,Daisy,Guerrero,dguerrero@wiley.com,AASF 2013,Wiley,350 Main Street,,Malden,MA,02148,USA,(781) 388-8544,dguerrero@wiley.com,326,Wiley,
+,Meryl,Zweig,mzweig@zarbeco.com,AASF 2013,Zarbeco LLC,1240 Sussex Turnpike, Ste 5,Randolph,NJ,07869,USA,(973) 933-2043,mzweig@zarbeco.com,402,"Zarbeco, LLC",(973) 933-2336
+,Ian,Silber,isilber@zygem.com,AASF 2013,Zygem,705 D Dale Avenue,,Charlottesville,VA,22903,USA,(708) 310-1965,isilber@zygem.com,315,Zygem,
